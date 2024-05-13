@@ -7,7 +7,7 @@ on:
       tfpath:
         description: 'TF File Path'     
         required: false
-        default: 'aws-tf-demo'
+        default: './'
 
 jobs:
   tf_code_check:
